@@ -18,7 +18,8 @@
             <label>Password Confirm:</label><br/>
             <asp:TextBox ID="pwconfirmField" runat="server" TextMode="Password"></asp:TextBox><br/>
             <asp:Button ID="submitButton" runat="server" Text="Submit" OnClick="submitClick" /><br/>
-            <asp:Label ID="outputLabel" runat="server" ></asp:Label>
+            <asp:Label ID="outputLabel" runat="server" ></asp:Label><br>
+            <a href="login.aspx">Already registered?</a>
         </div>
     </form>
 </body>

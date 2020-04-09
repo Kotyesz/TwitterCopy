@@ -14,7 +14,8 @@
             <label>Password</label><br />
             <asp:TextBox ID="password" runat="server" TextMode="Password"></asp:TextBox><br />
             <asp:Button ID="submitButton" runat="server" Text="Submit" OnClick="submitClick" /><br/>
-            <asp:Label ID="outputLabel" runat="server" />
+            <asp:Label ID="outputLabel" runat="server" /><br/>
+            <a href="register.aspx">Not registered?</a>
         </div>
     </form>
 </body>
