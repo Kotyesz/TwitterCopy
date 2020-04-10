@@ -15,7 +15,7 @@
             <asp:TextBox ID="password" runat="server" TextMode="Password"></asp:TextBox><br />
             <asp:Button ID="submitButton" runat="server" Text="Submit" OnClick="submitClick" /><br/>
             <asp:Label ID="outputLabel" runat="server" /><br/>
-            <a href="register.aspx">Not registered?</a>
+            <a href="/register">Not registered?</a>
         </div>
     </form>
 </body>
